@@ -1,0 +1,78 @@
+body {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.rps-heading {
+    text-decoration-line: underline;
+}
+
+.rps-images-div {
+    
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.rps-images-div img {
+    padding: 10px;
+    /*margin: 10px 10px;*/
+}
+
+.rps-images-div img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+.play-again {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    vertical-align: middle;
+    text-align: center;
+    padding: .375rem .75rem;
+    user-select: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-danger:active {
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+
+.btn-danger:focus {
+    color: white;
+    background-color: #c82333;
+    border-color: #bd2130;
+    box-shadow: 0 0 0 0.2rem rgba(225,83,97,.5);
+}

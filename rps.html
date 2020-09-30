@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./rps.css">
+    <title>Rock paper scissors Game!</title>
+</head>
+<body>
+    <h1 class="rps-heading">Rock-paper-scissors</h1>
+    <div class="rps-images-div" id="rps-images-div">
+
+        <div id="image-element">
+            <img id="rock" src="./images/rock.jpg" height=180 width=180 onclick="rpsPlayGame(this)" alt="rock">
+        </div>
+        <div id="image-element">
+            <img id="paper" src="./images/paper.jpg" height=180 width=180 onclick="rpsPlayGame(this)" alt="paper">
+        </div>
+        <div id="image-element">
+            <img id="scissors" src="./images/scissors.jpg" height=180 width=180 onclick="rpsPlayGame(this)" alt="scissors">
+        </div>
+
+    </div>
+    <div class="play-again" id="play-again">
+        <button class="btn-danger" >Retry</button>
+    </div>
+
+    <script src="./rps.js"></script>
+</body>
+</html>
