@@ -19,6 +19,14 @@ body {
     vertical-align: middle;
 }
 
+.rps-images-div div {
+    padding: inherit;
+    display: inherit;
+    vertical-align: inherit;
+    text-align: center;
+    align-items: center;
+}
+
 .rps-images-div img {
     padding: 10px;
     /*margin: 10px 10px;*/
